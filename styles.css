@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.heading-big{
+    height: 100vh;
+    background-color: #C67758;
+    border: solid #C67758;
+    border-radius: 15vh;
+    margin-top: -15vh;
+    box-shadow: 0 1vh 2vh #a0a0a0;
+}
+
+.heading-small{
+    height: 80vh;
+    width: 80vw;
+    background-color: white;    
+    border: 0 solid #C67758;
+    border-radius: 15vh;
+    margin: -10vh auto 0 auto;
+    text-align: center;
+    box-shadow: 0 1vh 2vh #606060;
+}
+
+.logo-001{
+    width: 20vw;
+    margin-top: 30vh;
+    align-self: center;
+}
+
+.heading-small ul{
+    list-style: none;
+    padding-top: 8vh;
+}
+
+.heading-small ul li a{
+    text-decoration: none;
+    color: #606060;
+    font-size: 2vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0 4vw 0 4vw;
+}
+
+.heading-small ul li a:hover{
+    text-shadow: 0px 0px 5px #a0a0a0;
+}
+
+.hp-blurb{
+    width: 36vw;
+    margin: auto;
+    padding-top: 8vh;
+}
+
+.hp-blurb p{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3vh;
+}
+
+.featured-card{
+    width: 20vw;
+    height: 20vw;
+    background-color: white;    
+    border: 0 solid white;
+    border-radius: 8vh;
+    text-align: center;
+}
+
+.hp-card-photo{
+    width: 14vw;
+    height: 14vw;
+    border: 0 solid white;
+    border-radius: 5vh;
+    margin-left: auto;
+    padding-top: 2vh;
+}
+
+.hp-card-title{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 3vh;
+}
+
+card-button{
+    width: 4vw;
+    height: 4vh;
+    background-color: #C67758;
+}
