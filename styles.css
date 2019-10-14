@@ -9,7 +9,7 @@
     border: solid #C67758;
     border-radius: 15vh;
     margin-top: -15vh;
-    box-shadow: 0 1vh 2vh #a0a0a0;
+    box-shadow: 0 .5vh 1vh #a0a0a0;
 }
 
 .heading-small{
@@ -20,11 +20,11 @@
     border-radius: 15vh;
     margin: -10vh auto 0 auto;
     text-align: center;
-    box-shadow: 0 1vh 2vh #606060;
+    box-shadow: 0 .5vh 1vh #606060;
 }
 
 .logo-001{
-    width: 20vw;
+    width: 25vw;
     margin-top: 30vh;
     align-self: center;
 }
@@ -47,7 +47,7 @@
 }
 
 .hp-blurb{
-    width: 36vw;
+    width: 40vw;
     margin: auto;
     padding-top: 8vh;
 }
@@ -55,7 +55,7 @@
 .hp-blurb p{
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 
 .featured-card{
@@ -65,6 +65,9 @@
     border: 0 solid white;
     border-radius: 8vh;
     text-align: center;
+    box-shadow: 0 .5vh 1vh #606060;
+    align-self: center;
+    margin: auto;
 }
 
 .hp-card-photo{
@@ -78,12 +81,181 @@
 
 .hp-card-title{
     font-family: 'Source Sans Pro', sans-serif;
-    color: white;
-    font-size: 3vh;
+    color: #C67758;
+    font-size: 1.8vh;
+    padding-bottom: .5vh;
 }
 
-card-button{
-    width: 4vw;
-    height: 4vh;
+.card-button{
+    width: 5vw;
+    height: 3vh;
     background-color: #C67758;
+    margin: auto;
+    border: 0 solid #C67758;
+    border-radius: 3vw;    
+    box-shadow: 0 .1vh .5vh #606060;
+}
+
+.card-button a{
+    font-size: .8vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    color: white;    
+}
+
+.card-button:hover{
+    box-shadow: 0 .2vh .8vh #606060;
+}
+
+#overlay1 {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+#overlay2 {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+#overlay3 {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+.featured-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-area: 
+        "card1 card2 card3";
+    height: 30vw;
+    width: 70vw;
+    margin: auto;
+}
+
+.footer-big{    
+    height: 70vh;
+    background-color: #C67758;
+    border: solid #C67758;    
+    border-top-right-radius: 15vh;
+    border-top-left-radius: 15vh;
+    box-shadow: 0 .5vh 1vh #a0a0a0;
+}
+
+.hp-about{
+    width: 60vw;
+    height: 20vh;
+    background-color: white;
+    margin: 8vh auto;
+    padding-top: 10vh;    
+    box-shadow: 0 .5vh 1vh #606060;
+    border: 0 solid white;
+    border-radius: 12vh;
+    text-align: center;
+}
+
+.hp-about p{
+    color: #606060;
+    font-size: 2.5vh;    
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 3vh;
+}
+
+.footer-small{    
+    height: 25vh;
+    width: 80vw;
+    background-color: white;    
+    border: 0 solid #C67758;
+    border-top-right-radius: 15vh;
+    border-top-left-radius: 15vh;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    box-shadow: 0 .5vh 1vh #606060;
+}
+
+.hp-cta{
+    width: 8vw;
+    height: 5vh;
+    background-color: #C67758;
+    margin: auto;
+    border: 0 solid #C67758;
+    border-radius: 1vw;    
+    box-shadow: 0 .1vh .5vh #606060;
+}
+
+.hp-cta a{
+    font-size: 1vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    color: white;    
+}
+
+.heading-big-pages{
+    height: 40vh;
+    background-color: #C67758;
+    border: solid #C67758;
+    border-bottom-right-radius: 10vh;
+    border-bottom-left-radius: 10vh;
+    box-shadow: 0 .5vh 1vh #a0a0a0;
+}
+
+.heading-small-pages{
+    height: 35vh;
+    width: 80vw;
+    background-color: white;    
+    border: 0 solid #C67758;
+    border-bottom-right-radius: 15vh;
+    border-bottom-left-radius: 15vh;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 .5vh 1vh #606060;
+}
+
+.logo-002{
+    width: 15vw;
+    margin-top: 5vh;
+    align-self: center;
+}
+
+.heading-small-pages ul{
+    list-style: none;
+    padding-top: 4vh;
+}
+
+.heading-small-pages ul li a{
+    text-decoration: none;
+    color: #606060;
+    font-size: 1.5vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0 4vw 0 4vw;
+}
+
+.heading-small-pages ul li a:hover{
+    text-shadow: 0px 0px 5px #a0a0a0;
 }
