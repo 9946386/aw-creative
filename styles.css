@@ -37,13 +37,29 @@
 .heading-small ul li a{
     text-decoration: none;
     color: #606060;
-    font-size: 2vw;
+    font-size: 4vh;
     font-family: 'Source Sans Pro', sans-serif;
     padding: 0 4vw 0 4vw;
 }
 
 .heading-small ul li a:hover{
     text-shadow: 0px 0px 5px #a0a0a0;
+}
+
+@media screen and (min-width: 1000px){
+    .heading-small ul{
+        padding-top: 6vh;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .logo-001{
+        width: 22vw;
+    }
+
+    .heading-small ul{
+        padding-top: 4vh;
+    }
 }
 
 .hp-blurb{
@@ -74,21 +90,21 @@
     width: 14vw;
     height: 14vw;
     border: 0 solid white;
-    border-radius: 5vh;
+    border-radius: 8vh;
     margin-left: auto;
-    padding-top: 2vh;
+    padding-top: 3vh;
 }
 
 .hp-card-title{
     font-family: 'Source Sans Pro', sans-serif;
     color: #C67758;
-    font-size: 1.8vh;
+    font-size: 2vh;
     padding-bottom: .5vh;
 }
 
 .card-button{
-    width: 5vw;
-    height: 3vh;
+    width: 6vw;
+    height: 3.5vh;
     background-color: #C67758;
     margin: auto;
     border: 0 solid #C67758;
@@ -97,7 +113,7 @@
 }
 
 .card-button a{
-    font-size: .8vw;
+    font-size: 1vw;
     font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
     color: white;    
@@ -105,48 +121,6 @@
 
 .card-button:hover{
     box-shadow: 0 .2vh .8vh #606060;
-}
-
-#overlay1 {
-    position: fixed; /* Sit on top of the page content */
-    display: none; /* Hidden by default */
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
-}
-
-#overlay2 {
-    position: fixed; /* Sit on top of the page content */
-    display: none; /* Hidden by default */
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
-}
-
-#overlay3 {
-    position: fixed; /* Sit on top of the page content */
-    display: none; /* Hidden by default */
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
 }
 
 .featured-grid{
@@ -258,4 +232,169 @@
 
 .heading-small-pages ul li a:hover{
     text-shadow: 0px 0px 5px #a0a0a0;
+}
+
+.page-title{
+    color: #606060;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 4vh;
+    margin: auto;
+    text-align: center;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+}
+
+.call-to-action{
+    width: 60vw;
+    height: 10vw;
+    margin: 2.5vh auto;
+    text-align: center;
+}
+
+.cta-text{
+    color: #606060;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3vh;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+}
+
+.cta-button{
+    width: 6vw;
+    height: 4vh;
+    background-color: #C67758;
+    border: 0 solid #C67758;
+    border-radius: 2vh;
+    box-shadow: 0 .5vh 1vh #606060;
+    margin: auto;
+}
+
+.cta-button a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2.5vh;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-big-pages{
+    height: 30vh;
+    background-color: #C67758;
+    border: solid #C67758;    
+    border-top-right-radius: 15vh;
+    border-top-left-radius: 15vh;
+    box-shadow: 0 .5vh 1vh #a0a0a0;
+    position: relative;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.footer-small-pages{    
+    height: 25vh;
+    width: 80vw;
+    background-color: white;    
+    border: 0 solid #C67758;
+    border-top-right-radius: 15vh;
+    border-top-left-radius: 15vh;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 9vw;
+}
+
+.footer-info{
+    width: 30vw;
+    margin: auto;
+}
+
+.page-links{
+    float: left;
+    text-align: left;
+    padding-top: 8vh;
+}
+
+.page-links a{
+    text-decoration: none;
+    color: #606060;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2.5vh;
+}
+
+.page-links a:hover{
+    color: #C67758;
+}
+
+.icons{
+    float: right;
+    padding-top: 10vh;
+}
+
+.icons img{
+    width: 2.5vw;
+}
+
+.card-container{
+    width: 80vw;
+    height: 60vh;
+    margin: auto;
+}
+
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.items{
+    width: 25vw;    
+    height: 25vw;
+    border: 0 solid white;
+    border-radius: 8vh;    
+    box-shadow: 0 .5vh 1vh #606060;
+    margin: auto;
+    text-align: center;;
+}
+
+.items:hover{
+    box-shadow: 0 1vh 2vh #606060;
+}
+
+.items img{
+    width: 18vw;
+    border: 0 solid white;
+    border-radius: 7vh; 
+    padding-top: 3vh;
+}
+
+.items p{    
+    font-size: 3vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 3vh;
+    color: #C67758;
+}
+
+
+
+@media screen and (min-width: 1000px){
+    .heading-small ul{
+        padding-top: 6vh;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .logo-001{
+        width: 22vw;
+    }
+
+    .heading-small ul{
+        padding-top: 4vh;
+    }
+
+    .logo-002{
+        margin-top: 3vh;
+    }
+
+    .heading-small-pages ul{
+        padding-top: 2vh;
+    }
 }
