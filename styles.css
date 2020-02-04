@@ -110,6 +110,8 @@
     border: 0 solid #C67758;
     border-radius: 3vw;    
     box-shadow: 0 .1vh .5vh #606060;
+    display: grid;
+    place-items: center;
 }
 
 .card-button a{
@@ -181,6 +183,8 @@
     border: 0 solid #C67758;
     border-radius: 1vw;    
     box-shadow: 0 .1vh .5vh #606060;
+    display: grid;
+    place-items: center;
 }
 
 .hp-cta a{
@@ -267,6 +271,8 @@
     border-radius: 2vh;
     box-shadow: 0 .5vh 1vh #606060;
     margin: auto;
+    display: grid;
+    place-items: center;
 }
 
 .cta-button a{
@@ -373,7 +379,16 @@
     color: #C67758;
 }
 
+.work{
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 10vh;
+}
 
+.work-display{
+    width: 80%;
+}
 
 @media screen and (min-width: 1000px){
     .heading-small ul{
